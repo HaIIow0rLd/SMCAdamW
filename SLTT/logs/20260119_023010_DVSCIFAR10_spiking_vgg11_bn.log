@@ -1,0 +1,6 @@
+INFO:root:=== Training started at 2026-01-19 02:30:10 ===
+INFO:root:Log file: ./logs\20260119_023010_DVSCIFAR10_spiking_vgg11_bn.log
+INFO:root:Model: spiking_vgg11_bn, Dataset: DVSCIFAR10
+INFO:root:Command line arguments: Namespace(seed=2022, name='', T=6, tau=1.1, b=128, epochs=300, j=4, data_dir='./data', dataset='DVSCIFAR10', out_dir='./logs', surrogate='triangle', resume=None, pre_train=None, amp=False, opt='AdamW', lr=0.01, momentum=0.9, lr_scheduler='CosALR', step_size=100, gamma=0.1, T_max=300, model='spiking_vgg11_bn', drop_rate=0.0, weight_decay=0, loss_lambda=0.05, mse_n_reg=False, loss_means=1.0, K=2, lambda_sm=0.1, alpha_sm=0.001, k=5.0)
+INFO:root:Using GPU device 0
+INFO:root:Loading dataset...
